@@ -1,0 +1,82 @@
+                ```{Final Project Problem Options}```
+
+Max 3-Sat
+
+    generalises the Boolean satisfiability problem (SAT) which is a decision problem considered in complexity theory. It is defined as:
+    Given a 3-CNF formula Φ (i.e. with at most 3 variables per clause), find an assignment that satisfies the largest number of clauses.
+    MAX-3SAT is a canonical complete problem for the complexity class MAXSNP (shown complete in Papadimitriou pg. 314).
+
+Max clique
+
+    given a group of vertices some of which have edges in between them, the maximal clique is the largest subset of vertices in which each 
+    point is directly connected to every other vertex in the subset. Every time a new point is added, the number of total cliques that must 
+    be searched at least doubles; hence we have an exponentially growing problem.
+
+Traveling Saleman Problem (TSP) with a complete graph
+
+    A traveling salesman wishes to go to a certain number of destinations in order to sell objects. He wants to
+    travel to each destination exactly once and return home taking the shortest total route.
+    Each voyage can be represented as a graph G = (V, E) where each destination, including his home, is a
+    vertex, and if there is a direct route that connects two distinct destinations then there is an edge between
+    those two vertices. The traveling salesman problem is solved if there exists a shortest route that visits each
+    destination once and permits the salesman to return home. (This route is called a Hamiltonian Cycle and
+    will be explained in Chapter 2.)
+    The traveling salesman problem can be divided into two types: the problems where there is a path between
+    every pair of distinct vertices (no road blocks), and the ones where there are not (with road blocks). Both
+    of these types of TSP problems are explained in more detail in Chapter 6.
+        https://www.mathematics.pitt.edu/sites/default/files/TSP.pdf
+
+Longest Path
+
+    The problem of finding a simple path of maximum length in a given graph. A path is called simple if it does not have any repeated vertices;
+    the length of a path may either be measured by its number of edges, or (in weighted graphs) by the sum of the weights of its edges. 
+    In contrast to the shortest path problem, which can be solved in polynomial time in graphs without negative-weight cycles, 
+    the longest path problem is NP-hard and the decision version of the problem, which asks whether a path exists of at least some given length, is NP-complete. 
+    This means that the decision problem cannot be solved in polynomial time for arbitrary graphs unless P = NP. Stronger hardness results are also known showing 
+    that it is difficult to approximate. However, it has a linear time solution for directed acyclic graphs,
+    which has important applications in finding the critical path in scheduling problems.
+
+Load Balancing
+
+    refers to the process of distributing a set of tasks over a set of resources (computing units), 
+    with the aim of making their overall processing more efficient. Load balancing can optimize the
+    response time and avoid unevenly overloading some compute nodes while other compute nodes are left idle.
+    Load balancing is the subject of research in the field of parallel computers. Two main approaches exist: 
+    static algorithms, which do not take into account the state of the different machines, and dynamic algorithms, 
+    which are usually more general and more efficient, but require exchanges of information between the 
+    different computing units, at the risk of a loss of efficiency.
+
+Maximum Bin packing
+
+    an optimization problem, in which items of different sizes must be packed into a finite number of bins or containers, 
+    each of a fixed given capacity, in a way that minimizes the number of bins used. The problem has many applications,
+    such as filling up containers, loading trucks with weight capacity constraints, 
+    creating file backups in media and technology mapping in FPGA semiconductor chip design.
+
+Min Graph Coloring
+
+    In graph theory, graph coloring is a special case of graph labeling; it is an assignment of labels traditionally 
+    called "colors" to elements of a graph subject to certain constraints. In its simplest form, it is a way of 
+    coloring the vertices of a graph such that no two adjacent vertices are of the same color; this is called a vertex coloring. 
+    Similarly, an edge coloring assigns a color to each edge so that no two adjacent edges are of the same color, 
+    and a face coloring of a planar graph assigns a color to each face or region so that no two faces that share a boundary have the same color.
+
+Minimal k-cut
+
+    In mathematics, the minimum k-cut, is a combinatorial optimization problem that requires finding a set of edges whose removal would partition 
+    the graph to at least k connected components. These edges are referred to as k-cut. The goal is to find the minimum-weight k-cut. 
+    This partitioning can have applications in VLSI design, data-mining, finite elements and communication in parallel computing.
+
+Max Knapsack
+
+    The knapsack problem is a problem in combinatorial optimization: Given a set of items, each with a weight and a value, 
+    determine the number of each item to include in a collection so that the total weight is less than or equal to 
+    a given limit and the total value is as large as possible.
+
+Max Cut
+
+    For a graph, a maximum cut is a cut whose size is at least the size of any other cut. That is, it is a partition of 
+    the graph's vertices into two complementary sets S and T, such that the number of edges between the set S and the set T is as large as possible. 
+    The problem of finding a maximum cut in a graph is known as the Max-Cut Problem.
+    The problem can be stated simply as follows. One wants a subset S of the vertex set such that the number of edges 
+    between S and the complementary subset is as large as possible. Equivalently, one wants a bipartite subgraph of the graph with as many edges as possible.
