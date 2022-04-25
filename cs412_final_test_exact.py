@@ -7,7 +7,7 @@ from unittest.mock import patch
 from cs412_hw0_a import main as hw0_a_main
 from cs412_hw0_b import main as hw0_b_main
 
-class TestHW1(unittest.TestCase):
+class TestExact(unittest.TestCase):
     
     @classmethod
     def setUpClass(cls):
