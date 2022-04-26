@@ -1,24 +1,20 @@
 """
-    name:  Justin Newman
+    Exact Solution to Max Knapsack using Brute Force.
 """
 def max_profit(heavy, stack):
     for item in stack:
         item.append(item[1]/item[2])
     stack.sort(key=lambda x: x[3])
-    def recursion_profit():
-        if sum(item[2] for item in stack) == w[0]: return bag
-        if stack == []: return bag
+    bag = []
+    while sum(item[2] for item in stack) < heavy or len(stack) != 0:
         item = stack.pop()
-        if item[2] > w[0]:
-            item[1] = (w[0]/item[2]) * item[1]
-            item[2] = (w[0]/item[2]) * item[2]
-        w[0] -= item[2]
+        if item[2] > heavy:
+            item[1] = (heavy/item[2]) * item[1]
+            item[2] = (heavy/item[2]) * item[2]
+        heavy -= item[2]
         A[0] += item[1]
         if (item[2] > 0): bag.append(item)
-        return recursion_profit()
-    bag = []
-    w = [heavy]
-    return(recursion_profit())
+    return bag
 
 A = [0]
 def main(): 
