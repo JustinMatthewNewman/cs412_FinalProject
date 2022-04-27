@@ -1,0 +1,16 @@
+1000
+14
+gold1 50 5
+gold2 50 10
+gold3 50 50
+gold4 50 55
+gold5 150 100
+gold6 50 23
+gold7 50 29
+gold11 50 5
+gold12 50 10
+gold13 50 50
+gold14 50 55
+gold15 150 100
+gold16 50 23
+gold17 50 29
