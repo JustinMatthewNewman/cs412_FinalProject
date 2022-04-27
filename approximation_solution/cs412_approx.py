@@ -11,7 +11,8 @@ def main():
     func = lambda list: list[1]/list[2] #price/weight
     func2 = lambda list: list[2]
     sorted_items = sorted(items, key=func) #list of items sorted from lowest value per weight to highest
-    sorted_weights = sorted(items, key=func2)
+    sorted_weights = sorted(items, key=func2)[::-1]
+    print(sorted_weights)
 
     # Use Fractional Knapsack to find an upperbound for correctness checking later on
     upperBound = int(FindUpperBound(sorted_items, maxW))
