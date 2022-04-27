@@ -17,16 +17,19 @@ def main():
     sorted_weights = sorted(items, key=func2)[::-1]
 
     # Use Fractional Knapsack to find an upperbound for correctness checking later on
-    upperBound = int(FindUpperBound(sorted_items, maxW))
-    print("Upper Bound", upperBound)
-    ret = FindApproxSolution(sorted_weights, upperBound, maxW)
+    upperBound = FindUpperBound(sorted_items, maxW)
+    picks = sorted(FindApproxSolution(sorted_weights, upperBound, maxW), key=func3)[::-1]
 
-    sorted_ret = sorted(ret, key=func3)[::-1]
-    for item in sorted_ret:
-        print(item[0] + "(" + str(item[1]) + ", " + str(item[2]) + ")", end=" ")
-    print("\nApproximated Value", getValue(ret))
+    print("\nSelected items: \n")
+    max_val = 0
+    total_weight = 0
+    for item in picks:
+        print(item[0], item[1], item[2])
+        max_val += item[1]
+        total_weight += item[2]
+    print("\nBound Value: \t", upperBound, "\nTotal value: \t", max_val, "\nTotal weight: \t", total_weight)
     print()
-    
+
     end = time.time()
     print(end - start, "seconds\n")
 
