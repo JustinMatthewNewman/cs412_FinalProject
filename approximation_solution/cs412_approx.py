@@ -2,12 +2,14 @@
     Approximate Solution to Max Knapsack using psuedo-polynomial random approximation
      
 """ 
-import random
+import random, time
 def main():
     maxW = int(input())
     numItems = int(input())
 
     items = [[y[0], float(y[1]), float(y[2])] for y in [input().split() for i in range(numItems)]]
+    start = time.time()
+    
     func = lambda list: list[1]/list[2] #price/weight
     func2 = lambda list: list[2]
     func3 = lambda list: list[1]
@@ -23,6 +25,10 @@ def main():
     for item in sorted_ret:
         print(item[0] + "(" + str(item[1]) + ", " + str(item[2]) + ")", end=" ")
     print("\nApproximated Value", getValue(ret))
+    print()
+    
+    end = time.time()
+    print(end - start, "seconds\n")
 
 def FindUpperBound(items, wRem):
     value = 0
