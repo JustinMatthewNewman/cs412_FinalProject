@@ -1,7 +1,7 @@
 """
     Approximate Solution to Max Knapsack using psuedo-polynomial random approximation
      
-"""
+""" 
 import random
 def main():
     maxW = int(input())
@@ -59,16 +59,6 @@ def FindApproxSolution(items, upperBound, maxW):
         error = (upperBound - getValue(chosen_items)) / upperBound
     return chosen_items            
 
-
-
-
-    #while (upperBound - max) / upperBound > 0.15: #error rate is greater than 15%
-
-
-
-
-
-    #return items
 def getValue(items):
     value = 0
     for item in items:
@@ -86,7 +76,6 @@ def chooseRandomItemFits(items, wRem):
         return None
     randomIndex = int(random.random() * (len(items) - index) + index)
     return items[randomIndex]
-
 
 if __name__ == "__main__":
     main()
