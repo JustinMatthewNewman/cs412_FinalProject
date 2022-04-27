@@ -7,3 +7,11 @@ Max Knapsack
     a given limit and the total value is as large as possible.
 
 (constrainted problem) specifies the number of items
+
+test_1 expected: 150.0
+test_2 expected: 900.0
+test_3 expected: 70474.0
+test_4 expected: 74686.0
+test_5 expected: 2251.0
+test_6 expected: 56798.0
+test_7 expected: 
