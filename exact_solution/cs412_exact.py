@@ -35,13 +35,13 @@ if __name__ == '__main__':
     picks = knapsack_dp(values,weights,n_items,capacity)
     max_val = 0
     total_weight = 0
-    print("\nSelected items: \n")
+    # print("\nSelected items: \n")
     for a in picks:
-        print(names[a], values[a], weights[a])
+        #print(names[a], values[a], weights[a])
         max_val += values[a]
-        total_weight += weights[a]
-    print("\nTotal value: ", max_val, "\nTotal weight: ", total_weight)
-    print()
+        #total_weight += weights[a]
+    # print("\nTotal value: ", max_val, "\nTotal weight: ", total_weight)
+    print(max_val, end=" ")
     end = time.time()
-    print(end - start, "seconds\n")
+    print(end - start)
     
