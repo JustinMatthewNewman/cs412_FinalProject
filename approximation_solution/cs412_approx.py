@@ -10,15 +10,14 @@ def main():
     items = [[y[0], float(y[1]), float(y[2])] for y in [input().split() for i in range(numItems)]]
     start = time.time()
     
-    func = lambda list: list[1]/list[2] #price/weight
+    func = lambda list: list[1]/list[2]
     func2 = lambda list: list[2]
     func3 = lambda list: list[1]
-    sorted_items = sorted(items, key=func) #list of items sorted from lowest value per weight to highest
+    sorted_items = sorted(items, key=func)
     sorted_weights = sorted(items, key=func2)[::-1]
 
-    # Use Fractional Knapsack to find an upperbound for correctness checking later on
     upperBound = FindUpperBound(sorted_items, maxW)
-    picks = sorted(FindApproxSolution(sorted_weights, upperBound, maxW), key=func3)[::-1]
+    picks = sorted(FindApproxSolution(sorted_weights, upperBound, maxW, start), key=func3)[::-1]
 
     print("\nSelected items: \n")
     max_val = 0
@@ -45,17 +44,13 @@ def FindUpperBound(items, wRem):
             value += items[i][1]
     return value
 
-def FindApproxSolution(items, upperBound, maxW):
-    #untill our best solution is within a error range of our upper bound we continue to run a while loop
-    #the while loop will keep picking items at random until it finds a full or close to full bag
-
-    #when within the error margin return the list of items back to main
+def FindApproxSolution(items, upperBound, maxW, start_time):
     resetable_items = items.copy()
     chosen_items = []
     max = 0
     error = (upperBound - max) / upperBound
 
-    while error > 0.1:
+    while error > 0.01 and time.time() - start_time < 5:
         wRem = maxW
         resetable_items = items.copy()
         chosen_items = []
@@ -68,6 +63,7 @@ def FindApproxSolution(items, upperBound, maxW):
                 resetable_items.remove(rand)
                 wRem -= rand[2]
         error = (upperBound - getValue(chosen_items)) / upperBound
+    
     return chosen_items            
 
 def getValue(items):
@@ -77,7 +73,6 @@ def getValue(items):
     return int(value)
 
 def chooseRandomItemFits(items, wRem):
-    #randomly picks and item out of the list and returns it if item's weight <= wRem
     index = -1
     for i in range(len(items)):
         if items[i][2] <= wRem:
