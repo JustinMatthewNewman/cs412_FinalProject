@@ -55,7 +55,7 @@ def FindApproxSolution(items, upperBound, maxW, start_time):
         resetable_items = items.copy()
         chosen_items = []
         while wRem > 0:
-            rand = chooseRandomItemFits(resetable_items, wRem)
+            rand = chooseRandomItemThatFits(resetable_items, wRem)
             if rand == None:
                 break
             else:
@@ -63,7 +63,6 @@ def FindApproxSolution(items, upperBound, maxW, start_time):
                 resetable_items.remove(rand)
                 wRem -= rand[2]
         error = (upperBound - getValue(chosen_items)) / upperBound
-    
     return chosen_items            
 
 def getValue(items):
@@ -72,7 +71,7 @@ def getValue(items):
         value += item[1]
     return int(value)
 
-def chooseRandomItemFits(items, wRem):
+def chooseRandomItemThatFits(items, wRem):
     index = -1
     for i in range(len(items)):
         if items[i][2] <= wRem:
