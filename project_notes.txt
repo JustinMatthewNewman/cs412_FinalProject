@@ -15,3 +15,74 @@ test_4 expected: 74686.0
 test_5 expected: 2251.0
 test_6 expected: 56798.0
 test_7 expected: 
+
+Selected items: 
+
+pan 205 1517
+bat 6335 944
+Argument 7337 3156
+pot 2147 3302
+Advice 8512 2964
+mice 4967 1956
+Agency 8664 2616
+seed 1129 3401
+joke 9832 537
+tank 5695 1822
+Appearance 6800 868
+swing 3568 2101
+shoe 5537 643
+fan 8983 570
+Advertising 1846 177
+juice 888 934
+Address 6671 3602
+Application 8849 1860
+Agreement 6643 3385
+pear 2467 2324
+cake 7976 1312
+Argument 6677 3285
+name 5908 489
+seed 4986 410
+Anxiety 4072 3656
+meat 6784 2079
+morning 8863 2323
+Aspect 2658 3127
+Act 833 648
+van 3397 2372
+stove 1984 2766
+fan 6592 2695
+bat 4151 1365
+Advice 5970 3332
+pen 4813 2268
+hat 4318 2049
+rose 6209 3192
+lake 4851 1137
+bed 6114 465
+Addition 4376 1594
+Address 5601 3199
+lake 6727 76
+lake 2880 821
+gun 7917 2466
+Agreement 4773 1825
+Assistance 629 1778
+seed 3091 2929
+Attention 3224 2620
+summer 2171 3202
+Article 3262 215
+van 84 3130
+shoe 6967 1930
+mint 5300 3157
+summer 7712 1247
+step 4729 2283
+team 6363 3534
+road 2898 2337
+Appointment 3603 83
+tent 7184 3191
+milk 7746 990
+Advertising 9467 1421
+Atmosphere 4126 3215
+Army 1863 707
+
+Total value:  316924 
+Total weight:  125599
+
+4923.562953233719 seconds
