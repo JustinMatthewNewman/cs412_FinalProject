@@ -1,0 +1,450 @@
+Selected items: 
+
+silver 50 5
+ring 100 5
+
+Total value:  150 
+Total weight:  10
+
+0.00043702125549316406 seconds
+
+
+Selected items: 
+
+gold17 50 29
+gold16 50 23
+gold15 150 100
+gold14 50 55
+gold13 50 50
+gold12 50 10
+gold11 50 5
+gold7 50 29
+gold6 50 23
+gold5 150 100
+gold4 50 55
+gold3 50 50
+gold2 50 10
+gold1 50 5
+
+Total value:  900 
+Total weight:  544
+
+0.02015399932861328 seconds
+
+
+Selected items: 
+
+bed 2632 4
+Average 8913 13
+nose 5442 7
+cake 7015 7
+moon 8765 2
+bun 4570 7
+van 8977 16
+Attention 5705 7
+mask 6352 2
+sofa 6117 13
+Ambition 5986 3
+
+Total value:  70474 
+Total weight:  81
+
+0.0074770450592041016 seconds
+
+
+Selected items: 
+
+shoe 896 1
+juice 8949 2
+kite 8043 8
+Appearance 4587 2
+cup 5094 3
+Apartment 6696 4
+morning 8427 1
+Awareness 8666 7
+rain 7441 1
+tent 9452 5
+swing 6435 1
+
+Total value:  74686 
+Total weight:  35
+
+0.002876758575439453 seconds
+
+
+Selected items: 
+
+hen 2251 51
+
+Total value:  2251 
+Total weight:  51
+
+0.00048470497131347656 seconds
+
+
+Selected items: 
+
+pan 205 1517
+bat 6335 944
+Argument 7337 3156
+pot 2147 3302
+Advice 8512 2964
+mice 4967 1956
+Agency 8664 2616
+seed 1129 3401
+joke 9832 537
+tank 5695 1822
+Appearance 6800 868
+swing 3568 2101
+shoe 5537 643
+fan 8983 570
+Advertising 1846 177
+juice 888 934
+Address 6671 3602
+Application 8849 1860
+Agreement 6643 3385
+pear 2467 2324
+cake 7976 1312
+Argument 6677 3285
+name 5908 489
+seed 4986 410
+Anxiety 4072 3656
+meat 6784 2079
+morning 8863 2323
+Aspect 2658 3127
+Act 833 648
+van 3397 2372
+stove 1984 2766
+fan 6592 2695
+bat 4151 1365
+Advice 5970 3332
+pen 4813 2268
+hat 4318 2049
+rose 6209 3192
+lake 4851 1137
+bed 6114 465
+Addition 4376 1594
+Address 5601 3199
+lake 6727 76
+lake 2880 821
+gun 7917 2466
+Agreement 4773 1825
+Assistance 629 1778
+seed 3091 2929
+Attention 3224 2620
+summer 2171 3202
+Article 3262 215
+van 84 3130
+shoe 6967 1930
+mint 5300 3157
+summer 7712 1247
+step 4729 2283
+team 6363 3534
+road 2898 2337
+Appointment 3603 83
+tent 7184 3191
+milk 7746 990
+Advertising 9467 1421
+Atmosphere 4126 3215
+Army 1863 707
+
+Total value:  316924 
+Total weight:  125599
+
+33.9409339427948 seconds
+
+
+Selected items: 
+
+pan 205 1517
+bat 6335 944
+Argument 7337 3156
+pot 2147 3302
+Advice 8512 2964
+mice 4967 1956
+Agency 8664 2616
+seed 1129 3401
+joke 9832 537
+tank 5695 1822
+Appearance 6800 868
+swing 3568 2101
+shoe 5537 643
+fan 8983 570
+Advertising 1846 177
+juice 888 934
+Address 6671 3602
+Application 8849 1860
+Agreement 6643 3385
+pear 2467 2324
+cake 7976 1312
+Argument 6677 3285
+name 5908 489
+seed 4986 410
+Anxiety 4072 3656
+meat 6784 2079
+morning 8863 2323
+Aspect 2658 3127
+Act 833 648
+van 3397 2372
+stove 1984 2766
+fan 6592 2695
+bat 4151 1365
+Advice 5970 3332
+pen 4813 2268
+hat 4318 2049
+rose 6209 3192
+lake 4851 1137
+bed 6114 465
+Addition 4376 1594
+Address 5601 3199
+lake 6727 76
+lake 2880 821
+gun 7917 2466
+Agreement 4773 1825
+Assistance 629 1778
+seed 3091 2929
+Attention 3224 2620
+summer 2171 3202
+Article 3262 215
+van 84 3130
+shoe 6967 1930
+mint 5300 3157
+summer 7712 1247
+step 4729 2283
+team 6363 3534
+road 2898 2337
+Appointment 3603 83
+tent 7184 3191
+milk 7746 990
+Advertising 9467 1421
+Atmosphere 4126 3215
+Army 1863 707
+
+Total value:  316924 
+Total weight:  125599
+
+4923.562953233719 seconds
+
+Approx Solution
+
+Selected items: 
+
+ring 100.0 5.0
+silver 50.0 5.0
+
+Bound Value:     155.0 
+Total value:     150.0 
+Total weight:    10.0
+
+5.000118017196655 seconds
+
+
+Selected items: 
+
+gold15 150.0 100.0
+gold5 150.0 100.0
+gold14 50.0 55.0
+gold6 50.0 23.0
+gold13 50.0 50.0
+gold17 50.0 29.0
+gold11 50.0 5.0
+gold16 50.0 23.0
+gold7 50.0 29.0
+gold1 50.0 5.0
+gold12 50.0 10.0
+gold2 50.0 10.0
+gold3 50.0 50.0
+gold4 50.0 55.0
+
+Bound Value:     900.0 
+Total value:     900.0 
+Total weight:    544.0
+
+0.00018978118896484375 seconds
+
+
+Selected items: 
+
+Application 9722.0 54.0
+moon 8765.0 2.0
+Ambition 5986.0 3.0
+nose 5442.0 7.0
+book 848.0 14.0
+
+Bound Value:     71416.86666666667 
+Total value:     30763.0 
+Total weight:    80.0
+
+5.000152111053467 seconds
+
+
+Selected items: 
+
+Awareness 8666.0 7.0
+rain 7441.0 1.0
+swing 6435.0 1.0
+seed 4956.0 21.0
+shoe 3703.0 5.0
+
+Bound Value:     75070.5 
+Total value:     31201.0 
+Total weight:    35.0
+
+5.000142812728882 seconds
+
+
+Selected items: 
+
+rain 1390.0 74.0
+
+Bound Value:     2889.6486486486488 
+Total value:     1390.0 
+Total weight:    74.0
+
+5.000135898590088 seconds
+
+
+Selected items: 
+
+joke 9832.0 537.0
+Advertising 9467.0 1421.0
+fan 8983.0 570.0
+morning 8863.0 2323.0
+Application 8849.0 1860.0
+Agency 8664.0 2616.0
+Advice 8512.0 2964.0
+cake 7976.0 1312.0
+gun 7917.0 2466.0
+milk 7746.0 990.0
+summer 7712.0 1247.0
+Argument 7337.0 3156.0
+tent 7184.0 3191.0
+shoe 6967.0 1930.0
+Appearance 6800.0 868.0
+meat 6784.0 2079.0
+lake 6727.0 76.0
+Argument 6677.0 3285.0
+Address 6671.0 3602.0
+Agreement 6643.0 3385.0
+fan 6592.0 2695.0
+team 6363.0 3534.0
+bat 6335.0 944.0
+rose 6209.0 3192.0
+bed 6114.0 465.0
+Advice 5970.0 3332.0
+name 5908.0 489.0
+tank 5695.0 1822.0
+Address 5601.0 3199.0
+shoe 5537.0 643.0
+mint 5300.0 3157.0
+seed 4986.0 410.0
+mice 4967.0 1956.0
+lake 4851.0 1137.0
+pen 4813.0 2268.0
+Agreement 4773.0 1825.0
+step 4729.0 2283.0
+Addition 4376.0 1594.0
+hat 4318.0 2049.0
+bat 4151.0 1365.0
+Atmosphere 4126.0 3215.0
+Anxiety 4072.0 3656.0
+Appointment 3603.0 83.0
+swing 3568.0 2101.0
+van 3397.0 2372.0
+Article 3262.0 215.0
+Attention 3224.0 2620.0
+seed 3091.0 2929.0
+road 2898.0 2337.0
+lake 2880.0 821.0
+Aspect 2658.0 3127.0
+pear 2467.0 2324.0
+summer 2171.0 3202.0
+pot 2147.0 3302.0
+stove 1984.0 2766.0
+Army 1863.0 707.0
+Advertising 1846.0 177.0
+seed 1129.0 3401.0
+juice 888.0 934.0
+Act 833.0 648.0
+Assistance 629.0 1778.0
+pan 205.0 1517.0
+van 84.0 3130.0
+
+Bound Value:     316924.0 
+Total value:     316924.0 
+Total weight:    125599.0
+
+0.0006210803985595703 seconds
+
+
+Selected items: 
+
+joke 9832.0 537.0
+Advertising 9467.0 1421.0
+fan 8983.0 570.0
+morning 8863.0 2323.0
+Application 8849.0 1860.0
+Agency 8664.0 2616.0
+Advice 8512.0 2964.0
+cake 7976.0 1312.0
+gun 7917.0 2466.0
+milk 7746.0 990.0
+summer 7712.0 1247.0
+Argument 7337.0 3156.0
+tent 7184.0 3191.0
+shoe 6967.0 1930.0
+Appearance 6800.0 868.0
+meat 6784.0 2079.0
+lake 6727.0 76.0
+Argument 6677.0 3285.0
+Address 6671.0 3602.0
+Agreement 6643.0 3385.0
+fan 6592.0 2695.0
+team 6363.0 3534.0
+bat 6335.0 944.0
+rose 6209.0 3192.0
+bed 6114.0 465.0
+Advice 5970.0 3332.0
+name 5908.0 489.0
+tank 5695.0 1822.0
+Address 5601.0 3199.0
+shoe 5537.0 643.0
+mint 5300.0 3157.0
+seed 4986.0 410.0
+mice 4967.0 1956.0
+lake 4851.0 1137.0
+pen 4813.0 2268.0
+Agreement 4773.0 1825.0
+step 4729.0 2283.0
+Addition 4376.0 1594.0
+hat 4318.0 2049.0
+bat 4151.0 1365.0
+Atmosphere 4126.0 3215.0
+Anxiety 4072.0 3656.0
+Appointment 3603.0 83.0
+swing 3568.0 2101.0
+van 3397.0 2372.0
+Article 3262.0 215.0
+Attention 3224.0 2620.0
+seed 3091.0 2929.0
+road 2898.0 2337.0
+lake 2880.0 821.0
+Aspect 2658.0 3127.0
+pear 2467.0 2324.0
+summer 2171.0 3202.0
+pot 2147.0 3302.0
+stove 1984.0 2766.0
+Army 1863.0 707.0
+Advertising 1846.0 177.0
+seed 1129.0 3401.0
+juice 888.0 934.0
+Act 833.0 648.0
+Assistance 629.0 1778.0
+pan 205.0 1517.0
+van 84.0 3130.0
+
+Bound Value:     316924.0 
+Total value:     316924.0 
+Total weight:    125599.0
+
+0.0004930496215820312 seconds
