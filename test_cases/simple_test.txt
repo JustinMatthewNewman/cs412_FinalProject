@@ -1,0 +1,5 @@
+11
+3
+ring 100 5
+gold 50 10
+silver 50 5

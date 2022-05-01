@@ -1,6 +1,6 @@
 import random
 weight = random.randint(0,10000)
-numItems = random.randint(0,100)
+numItems = 180
 print(weight)
 print(numItems)
 from wordlist import wordlist

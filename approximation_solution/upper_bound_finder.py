@@ -24,7 +24,7 @@ def main():
         sack[i][2] = float(sack[i][2])
     sack.sort(key=sortKey)
     total = find(w, n-1, sack)
-    print("Upper bound:", total)
+    print(total)
 
 if __name__ == "__main__":
     main()
