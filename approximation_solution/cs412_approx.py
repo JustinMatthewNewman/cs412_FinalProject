@@ -19,18 +19,19 @@ def main():
     upperBound = FindUpperBound(sorted_items, maxW)
     picks = sorted(FindApproxSolution(sorted_weights, upperBound, maxW, start), key=func3)[::-1]
 
-    print("\nSelected items: \n")
+    #print("\nSelected items: \n")
     max_val = 0
     total_weight = 0
     for item in picks:
-        print(item[0], item[1], item[2])
+        #print(item[0], item[1], item[2])
         max_val += item[1]
         total_weight += item[2]
-    print("\nBound Value: \t", upperBound, "\nTotal value: \t", max_val, "\nTotal weight: \t", total_weight)
+    #print("\nBound Value: \t", upperBound, "\nTotal value: \t", max_val, "\nTotal weight: \t", total_weight)
     print()
 
     end = time.time()
-    print(end - start, "seconds\n")
+    #print(end - start, "seconds\n")
+    print(int(max_val), end - start)
 
 def FindUpperBound(items, wRem):
     value = 0
@@ -49,8 +50,10 @@ def FindApproxSolution(items, upperBound, maxW, start_time):
     chosen_items = []
     max = 0
     error = (upperBound - max) / upperBound
+    best = []
+    best_val = 0
 
-    while error > 0.01 and time.time() - start_time < 5:
+    while error > 0.01 and time.time() - start_time < 2:
         wRem = maxW
         resetable_items = items.copy()
         chosen_items = []
@@ -62,8 +65,12 @@ def FindApproxSolution(items, upperBound, maxW, start_time):
                 chosen_items.append(rand)
                 resetable_items.remove(rand)
                 wRem -= rand[2]
-        error = (upperBound - getValue(chosen_items)) / upperBound
-    return chosen_items            
+        cur_val = getValue(chosen_items)
+        error = (upperBound - cur_val) / upperBound
+        if best_val < cur_val:
+            best_val = cur_val
+            best = chosen_items.copy()
+    return best            
 
 def getValue(items):
     value = 0
