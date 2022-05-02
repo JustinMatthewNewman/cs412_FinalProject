@@ -27,7 +27,7 @@ def main():
         max_val += item[1]
         total_weight += item[2]
     #print("\nBound Value: \t", upperBound, "\nTotal value: \t", max_val, "\nTotal weight: \t", total_weight)
-    print()
+    #print()
 
     end = time.time()
     #print(end - start, "seconds\n")
@@ -53,7 +53,7 @@ def FindApproxSolution(items, upperBound, maxW, start_time):
     best = []
     best_val = 0
 
-    while error > 0.01 and time.time() - start_time < 2:
+    while error > 0.01 and time.time() - start_time < 20:
         wRem = maxW
         resetable_items = items.copy()
         chosen_items = []
