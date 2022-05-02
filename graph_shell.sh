@@ -950,8 +950,8 @@ python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_
 python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test949.txt
 python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test950.txt
 python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test951.txt
-python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_180/test952.txt
-python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_180/test953.txt
+python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test952.txt
+python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test953.txt
 python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test954.txt
 python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test955.txt
 python3 approximation_solution/cs412_approx.py < test_cases/test_cases_forGraph_63/test956.txt

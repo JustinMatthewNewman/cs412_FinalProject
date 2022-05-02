@@ -53,11 +53,11 @@ def FindApproxSolution(items, upperBound, maxW, start_time):
     best = []
     best_val = 0
 
-    while error > 0.01 and time.time() - start_time < 20:
+    while error > 0.05 and time.time() - start_time < 5:
         wRem = maxW
         resetable_items = items.copy()
         chosen_items = []
-        while wRem > 0:
+        while wRem > 0: #O(w*n)
             rand = chooseRandomItemThatFits(resetable_items, wRem)
             if rand == None:
                 break
